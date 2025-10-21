@@ -1,6 +1,8 @@
 
 
-
+.container-fluid{
+    background-color: hsl(0, 0%, 81%);
+}
 .card-1{
     height: 350px;
     background-image:url(images/bg-pattern-quotation.svg);
@@ -9,8 +11,8 @@
     background-position-x: right;
 }
 
-.card-top img{
-    width: 60px;
+.header img{
+    width: 50px;
     height: 100%;
 }
 
@@ -21,7 +23,52 @@
 
 .card-2{
     height: 350px;
-    width: 300px;
     background-color: hsl(217, 19%, 35%);
     color: hsl(214, 17%, 92%);
+}
+
+.card-3{
+    height: 750px;
+    width: fit-content;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.card-4{
+    height: 350px;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.card-5{
+    height: 350px;
+    background-color:hsl(219, 29%, 14%);
+
+}
+
+.row{
+    width: 1000px;
+}
+
+
+@media (max-width: 500px){
+    
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .card-3{
+        display:flex;
+        flex-direction: column;
+    }
+
+
+
 }
