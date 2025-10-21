@@ -20,32 +20,52 @@
     background-color:  hsl(263, 55%, 52%);
     color: hsl(260, 100%, 95%);
 }
-
+.card-1 p{
+    font-size: 12px;
+}
 .card-2{
     height: 350px;
     background-color: hsl(217, 19%, 35%);
     color: hsl(214, 17%, 92%);
 }
-
+.card-2 p{
+    font-size: 12px;
+}
 .card-3{
     height: 750px;
     width: fit-content;
     background-color: hsl(0, 0%, 100%);
+    color:hsl(219, 29%, 14%);
 
 }
+.card-3 p{
+    font-size: 12px;
+    text-wrap-mode: wrap;
+}
 
+.card-3 h4{
+    text-wrap: pretty;
+}
 .card-4{
     height: 350px;
     background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
 
 }
 
+.card-4 p{
+    font-size: 12px;
+}
 .card-5{
     height: 350px;
     background-color:hsl(219, 29%, 14%);
+    color: hsl(214, 17%, 92%);
 
 }
 
+.card-5 p{
+    font-size: 12px;
+}
 .row{
     width: 1000px;
 }
