@@ -1,0 +1,27 @@
+
+
+
+.card-1{
+    height: 350px;
+    background-image:url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: right;
+}
+
+.card-top img{
+    width: 60px;
+    height: 100%;
+}
+
+.card-1 {
+    background-color:  hsl(263, 55%, 52%);
+    color: hsl(260, 100%, 95%);
+}
+
+.card-2{
+    height: 350px;
+    width: 300px;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(214, 17%, 92%);
+}
