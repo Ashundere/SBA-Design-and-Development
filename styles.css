@@ -33,9 +33,9 @@
 }
 .card-3{
     height: 750px;
-    width: fit-content;
     background-color: hsl(0, 0%, 100%);
     color:hsl(219, 29%, 14%);
+    overflow: hidden;
 
 }
 .card-3 p{
@@ -43,8 +43,9 @@
     text-wrap-mode: wrap;
 }
 
-.card-3 h4{
+.card-3 .catcher{
     text-wrap: pretty;
+    text-align: start;
 }
 .card-4{
     height: 350px;
@@ -83,10 +84,28 @@
         flex-direction: column;
     }
 
+    .card-1{
+        height: fit-content;
+    }
+    .card-1 header{
+        justify-content: center;
+    }
+    .card-2{
+        height: fit-content;
+    }
 
     .card-3{
         display:flex;
         flex-direction: column;
+        justify-content: flex-start;
+        height: fit-content;
+    }
+
+    .card-4{
+        height: fit-content;
+    }
+    .card-5{
+        height: fit-content;
     }
 
 
