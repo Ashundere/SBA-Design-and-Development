@@ -3,6 +3,7 @@
 .container-fluid{
     background-color: hsl(0, 0%, 81%);
 }
+
 .card-1{
     height: 350px;
     background-image:url(images/bg-pattern-quotation.svg);
@@ -36,6 +37,7 @@
     background-color: hsl(0, 0%, 100%);
     color:hsl(219, 29%, 14%);
     overflow: hidden;
+    min-width: 300px;
 
 }
 .card-3 p{
@@ -77,6 +79,9 @@
     .container-fluid{
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin: 0px;
     }
 
     .row{
@@ -84,6 +89,9 @@
         flex-direction: column;
     }
 
+    .header{
+        justify-content: flex-start;
+    }
     .card-1{
         height: fit-content;
     }
